@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1e6f;
+    color: #333;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Profile Image Styles */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Profile Image Styles */
+/* Profile Image Styles */
+.profile img {
+    border-radius: 50%;
+    width: 20px; /* Further reduced size */
+    height: 20px; /* Ensure the height matches the width for a circle */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    border: 1px solid #333; /* Optional: smaller border for smaller image */
+}
+
+/* Section Styles */
+.intro, .portfolio, .contact {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.intro h2, .portfolio h2, .contact h2 {
+    margin-top: 0;
+}
+
+/* Portfolio Styles */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+}
+
+/* Contact Styles */
+.contact p {
+    margin: 0;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
